@@ -1,0 +1,185 @@
+/* ============ COMMON STYLES ============ */
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
+}
+
+/* ============ HEADER STYLES ============ */
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: #4d5ae5;
+    }
+.text-color {
+    color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;   
+}
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.contacts {
+    font-style: normal;
+}
+.contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+    
+    .contacts-link:hover,
+    .contacts-link:focus {
+    color: #404bbf;
+    }
+
+/* ============ HERO STYLES ============ */
+.hero {
+    background: #2e2f42;
+}    
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    background: #2e2f42;
+   } 
+.buy-now-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+}
+.buy-now-btn:hover,
+.buy-now-btn:focus {
+    background: #404bbf;
+}
+
+/*============EFFECTIVE SOLUTIONS STYLES==========*/
+.advantages-list-title {
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+ 
+}
+.advantages-list-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*============Our Team STYLES============*/
+.experts {
+    background-color: #F4F4FD;  
+}
+
+.experts-list-item {
+    background-color: #FFFFFF;
+}
+.experts-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+ }
+.experts-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    
+   }
+.experts-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+
+    }
+
+/*============Portfolio STYLES============*/
+.portfolio-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ============FOOTER STYLES============*/
+.page-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.footer-page-logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5; 
+}
+.page-footer {
+    background: #2e2f42;
+}
+.footer-text-color {
+    color: #f4f4fd ;
+}
