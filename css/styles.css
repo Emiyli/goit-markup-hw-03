@@ -48,16 +48,19 @@ img {
 }  
 
 /* ============ HEADER STYLES ============ */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+} 
 
 .page-header-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
+    /*border-bottom: 1px solid #e7e9fc;*/
 }
 .page-nav {
     display: flex;
     justify-content: space-between;
-  /*  align-items: center;*/
+    align-items: center;
    
 }
 .page-logo {
@@ -71,6 +74,7 @@ img {
     padding-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px
     }
 
 .text-color {
