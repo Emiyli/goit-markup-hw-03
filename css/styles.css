@@ -44,8 +44,8 @@ img {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
-   
 }  
+   
 
 /* ============ HEADER STYLES ============ */
 
@@ -72,7 +72,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase; 
     color: #4d5ae5;
-    padding-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
     margin-right: 76px
@@ -144,7 +143,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-top: 188px;
-    padding-bottom: 188px;
+    padding-bottom: 188px; 
    
     }
 
