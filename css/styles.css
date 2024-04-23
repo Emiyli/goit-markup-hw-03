@@ -247,14 +247,12 @@ img {
 .experts-list{
     display: flex;
     gap: 24px; 
-    padding-left: 156px;
-    padding-right: 156px;
    
 }
 
 .experts-list-item {
     background-color: #FFFFFF;
-    flex-wrap: wrap;
+  
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 3 * 24px) / 4); 
     margin: 0;
@@ -303,7 +301,7 @@ img {
     }
 
  .experts-container {
-    max-width: 1440px;
+    
     margin-top: 120px;
     padding-bottom: 72px;
     padding-top: 120px;
