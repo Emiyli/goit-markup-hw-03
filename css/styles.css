@@ -41,10 +41,10 @@ img {
     
     
 }
-.section {
+/*.section {
     padding-top: 120px;
     padding-bottom: 120px;
-}  
+}  */
    
 
 /* ============ HEADER STYLES ============ */
@@ -241,6 +241,7 @@ img {
 
 .experts-section{
     padding: 120px 0 120px;
+
 }
 
 .experts-list{
@@ -255,7 +256,9 @@ img {
     background-color: #FFFFFF;
     flex-wrap: wrap;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4); 
+    width: calc calc((100% - 3 * 24px) / 4); 
+    margin: 0;
+    padding: 0;
 }
 
 .experts-section-title {
@@ -395,7 +398,7 @@ img {
 
 .page-footer-container {
     max-width: 1440px;
-    padding: 100px 0; 
+    
 }
 
 .page-footer-text {
