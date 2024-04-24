@@ -56,6 +56,7 @@ img {
 .page-header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 .page-nav {
@@ -72,8 +73,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase; 
     color: #4d5ae5;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 76px
     }
 
@@ -82,8 +81,6 @@ img {
 }
 .menu {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;  
    }
 .menu-link:hover,
@@ -99,14 +96,14 @@ img {
     color: #2e2f42; 
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
    }
     
 
 .contacts {
     font-style: normal;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
    
     
 }
@@ -135,16 +132,13 @@ img {
 
 .hero-section {
    padding: 188px 0; 
+   background: #2e2f42;
 }   
 
 
 .hero-container {
-    background: #2e2f42;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 188px;
-    padding-bottom: 188px;  
+    
+   
    
     }
 
@@ -213,7 +207,7 @@ img {
   .advantages-container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
+
   }
 
 .advantages-list-title {
@@ -236,12 +230,12 @@ img {
 /*============Our Team STYLES============*/
 
 .experts {
-    background-color: #F4F4FD;  
+    
 }
 
 .experts-section{
    padding: 120px 0 120px; 
-
+   background-color: #F4F4FD;  
 }
 
 .experts-list{
@@ -283,10 +277,9 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
+    
     margin-bottom: 8px;
-    padding-left: 49px;
-    padding-right: 49px;
+    
 
    }
 
@@ -297,25 +290,16 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
+   
     }
 
- .experts-container {
-    
-    margin-top: 120px;
-    padding-bottom: 72px;
-    padding-top: 120px;
-    display: block;
-    height: 732px;
+ 
     
  }
 /*============Portfolio STYLES============*/
 
 .portfolio-container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 120px;
-    
+  
 }
 
 .portfolio-section{
@@ -335,7 +319,7 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-    margin-bottom: 8px; 
+ 
 }
 
 .portfolio-list-item {
@@ -362,9 +346,6 @@ img {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-right: 226px;
     margin-bottom: 8px; 
 }
 
@@ -374,10 +355,7 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 8px;
-    padding-bottom: 32px;
-    padding-right: 314px;
-    padding-left: 16px;
+    
 
 }
 
@@ -395,7 +373,7 @@ img {
 }
 
 .page-footer-container {
-    max-width: 1440px;
+ 
     
 }
 
@@ -405,10 +383,6 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    padding-bottom: 100px;
-    padding-top: 16px;
-    padding-left: 156px;
-    /*padding-right: 1020px;*/
     max-width: 264px; 
     
 }
@@ -420,10 +394,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5; 
-    padding-top: 100px;
-    padding-bottom: 16px;
-    padding-left: 156px;
-    padding-right: 1169px;
     display: inline-block;
     margin-bottom: 16px; 
 }
